@@ -9,9 +9,9 @@ h1#tittle{
 }
 
 #pitch{
-    background-color: green;
-    width: 375px;
-    height: 550px;
+    background-image: url("pitch2.png");
+    width: 474px;
+    height: 692px;
     border: #FFFFFF solid 1px;
     margin-right: auto;
     margin-left: auto;
@@ -19,15 +19,40 @@ h1#tittle{
 .half{
     width: 373px;
     height: 273px;
-    background-color: green;
     border: #FFFFFF solid 1px; 
 }
 
-.onePosition{
+input[type=text]{
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.keeper{
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    width: 373px;
-    height: 56px;
-    padding-top: 4px;
+    width: 100%;
+    height: 45px;
+    padding-top: 25px;
+    border: solid red 1px;
+    font-size: 10px;
+}
+
+.area{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 371px;
+    height: 65px;
+    border: solid red 1px;
+}
+
+.player{
+    display: inline-block; 	
+    border: solid rgb(68, 0, 255) 1px;
+    height: 100%;
+    width: 87px;
 }
